@@ -360,7 +360,7 @@ namespace CCL.Importer
         {
             foreach (var item in carType.Variants)
             {
-                if (item.UnlockableAsWorkTrain)
+                 (item.UnlockableAsWorkTrain)
                 {
                     WorkTrainPurchaseHandler.WorkTrainLiveries.Add(item);
                 }
